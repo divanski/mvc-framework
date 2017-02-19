@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Email: izdravkov@victobox.com
  * Date: 19-Feb-17
  * Time: 19:24
  */
 
-namespace izdra\Routers;
+namespace src\Routers;
 
 class DefaultRouter
 {

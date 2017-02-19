@@ -1,16 +1,16 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Email: izdravkov@victobox.com
  * Date: 19-Feb-17
  * Time: 13:22
  */
 
-namespace izdra;
+namespace src;
 /**
  * Class Loader
- * @package izdra
+ * @package src
  */
 final class Loader
 {
@@ -23,7 +23,7 @@ final class Loader
      */
     public static function registerAutoLoad()
     {
-        spl_autoload_register(['\izdra\Loader', 'autoload']);
+        spl_autoload_register(['\src\Loader', 'autoload']);
     }
 
     /**

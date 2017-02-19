@@ -1,17 +1,17 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Email: izdravkov@victobox.com
  * Date: 19-Feb-17
  * Time: 13:22
  */
-namespace izdra;
+namespace src;
 include 'Loader.php';
 
 /**
  * Class App - Starting point for Application
- * @package izdra
+ * @package src
  */
 class App
 {
@@ -39,7 +39,7 @@ class App
      */
     private function __construct()
     {
-        Loader::registerNamespace('izdra', dirname(__FILE__).DIRECTORY_SEPARATOR);
+        Loader::registerNamespace('src', dirname(__FILE__).DIRECTORY_SEPARATOR);
         Loader::registerAutoLoad();
         $this->_config = Config::getInstance();
     }
@@ -79,7 +79,7 @@ class App
 
     /**
      * Create only one Instance
-     * @return \izdra\App
+     * @return \src\App
      */
     public static function getInstance()
     {

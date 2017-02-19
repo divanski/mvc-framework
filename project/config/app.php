@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Email: izdravkov@victobox.com
  * Date: 19-Feb-17
  * Time: 15:38
@@ -9,7 +9,7 @@
 
 return array(
     'namespaces' => [
-        'izdra' => '../../izdra',
+        'src' => '../../src',
         'Model' => '../models'
     ]
 );

@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Date: 19-Feb-17
  * Time: 11:51
  */
-include '../../izdra/App.php';
+include '../../src/App.php';
 
-$app = \izdra\App::getInstance();
+$app = \src\App::getInstance();
 
 $app->run();

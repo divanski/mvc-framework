@@ -1,15 +1,15 @@
 <?php
 /**
  * Created by Ivan Zdravkov.
- * User: izdra
+ * User: divanski
  * Email: izdravkov@victobox.com
  * Date: 19-Feb-17
  * Time: 18:55
  */
 
-namespace izdra;
+namespace src;
 
-use izdra\Routers\DefaultRouter;
+use src\Routers\DefaultRouter;
 
 class FrontController
 {
